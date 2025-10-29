@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors - Teal */
+    --color-primary-100: #d1fae5; /* teal-100 */
+    --color-primary-200: #a7f3d0; /* teal-200 */
+    --color-primary-300: #6ee7b7; /* teal-300 */
+    --color-primary-400: #34d399; /* teal-400 */
+    --color-primary-500: #10b981; /* teal-500 */
+    --color-primary-600: #059669; /* teal-600 */
+    --color-primary-700: #047857; /* teal-700 */
+
+    /* Neutral Colors - Slate */
+    --color-neutral-50: #f8fafc; /* slate-50 */
+    --color-neutral-100: #f1f5f9; /* slate-100 */
+    --color-neutral-200: #e2e8f0; /* slate-200 */
+    --color-neutral-300: #cbd5e1; /* slate-300 */
+    --color-neutral-400: #94a3b8; /* slate-400 */
+    --color-neutral-500: #64748b; /* slate-500 */
+    --color-neutral-600: #475569; /* slate-600 */
+    --color-neutral-700: #334155; /* slate-700 */
+    --color-neutral-800: #1e293b; /* slate-800 */
+
+    /* Semantic Colors */
+    --color-happy: #fbbf24; /* amber-400 */
+    --color-calm: #60a5fa; /* blue-400 */
+    --color-anxious: #c084fc; /* purple-400 */
+    --color-angry: #fb7185; /* rose-400 */
+    --color-low: #818cf8; /* indigo-400 */
+    --color-success: #10b981; /* emerald-500 */
+    --color-warning: #f59e0b; /* amber-500 */
+    --color-error: #f43f5e; /* rose-500 */
+    --color-info: #0ea5e9; /* sky-500 */
+  }
+}
+
+/* Typography Classes */
+.display-large {
+  @apply text-4xl font-display font-semibold;
+}
+
+.display-medium {
+  @apply text-3xl font-display font-semibold;
+}
+
+.display-small {
+  @apply text-2xl font-display font-semibold;
+}
+
+.heading-large {
+  @apply text-xl font-display font-medium;
+}
+
+.heading-medium {
+  @apply text-lg font-display font-medium;
+}
+
+.heading-small {
+  @apply text-base font-display font-medium;
+}
+
+.body-large {
+  @apply text-base font-body;
+}
+
+.body-medium {
+  @apply text-sm font-body;
+}
+
+.body-small {
+  @apply text-xs font-body;
+}
+
+.label-large {
+  @apply text-sm font-body font-medium;
+}
+
+.label-medium {
+  @apply text-xs font-body font-medium;
+}
+
+.label-small {
+  @apply text-xs font-body;
+}
+
+.quote {
+  @apply text-base font-display italic;
+}
+
+/* Transition Utilities */
+.transition-gentle {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.transition-quick {
+  @apply transition-all duration-150 ease-in-out;
+}
