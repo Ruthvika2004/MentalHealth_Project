@@ -1,17 +1,25 @@
-🛠️ Installation & Setup
+# 🧠 Mental Health Chatbot
 
-1. Clone the repository
-   git clone https://github.com/<your-username>/mental_health_chatbot.git
+A web-based chatbot designed to provide emotional support and basic mental health guidance using AI.
 
+---
 
-3. Move into the project folder
-   cd mental_health_chatbot
+## 🛠️ Installation & Setup
 
-
-4. Install dependencies
-   npm install
-
-(This installs everything listed in package.json and creates the node_modules folder automatically.)
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/mental_health_chatbot.git
+2. Move into the project folder
+bash
+Copy code
+cd mental_health_chatbot
+3. Install dependencies
+bash
+Copy code
+npm install
+This installs everything listed in package.json and creates the node_modules folder automatically.
 
 4. Run the application
-   npm start
+bash
+Copy code
+npm start
