@@ -169,7 +169,7 @@ export const MoodIllustration = ({ mood = "happy" }) => {
 export const WellnessIllustration = () => (
 <div className="w-full h-32 flex items-center justify-center overflow-hidden">
       <img
-        src="\public\videos\Self-care Checklist.gif"
+        src="\videos\Self-care Checklist.gif"
         alt="Chat cloud animation"
         className="w-64 h-auto rounded-xl object-cover"
       />
@@ -178,7 +178,7 @@ export const WellnessIllustration = () => (
 export const ChatIllustration = () => (
  <div className="w-full h-32 flex items-center justify-center overflow-hidden">
       <img
-        src="\public\videos\Kumo Emoji Collection.gif"
+        src="\videos\Kumo Emoji Collection.gif"
         alt="Chat cloud animation"
         className="w-64 h-auto rounded-xl object-cover"
       />
@@ -187,7 +187,7 @@ export const ChatIllustration = () => (
 export const JournalIllustration = () => (
 <div className="w-full h-32 flex items-center justify-center overflow-hidden">
       <img
-        src="\public\videos\Book Write GIF - Find & Share on GIPHY.gif"
+        src="\videos\Book Write GIF - Find & Share on GIPHY.gif"
         alt="Chat cloud animation"
         className="w-64 h-auto rounded-xl object-cover"
       />
@@ -196,7 +196,7 @@ export const JournalIllustration = () => (
 export const ResourcesIllustration = () => (
   <div className="w-full h-32 flex items-center justify-center overflow-hidden">
       <img
-        src="\public\videos\Screenshot 2025-10-26 151239.png"
+        src="\videos\Screenshot 2025-10-26 151239.png"
         alt="Chat cloud animation"
         className="w-64 h-auto rounded-xl object-cover"
       />
